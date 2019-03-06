@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         ((EditText) findViewById(R.id.inputNome)).setText("");
         ((EditText) findViewById(R.id.inputCognome)).setText("");
         ((EditText) findViewById(R.id.inputAnno)).setText("");
+        Toast.makeText(MainActivity.this, "va bene, questo è fuori dalla festa", Toast.LENGTH_LONG).show();
     }
 
     @Override
