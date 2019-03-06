@@ -1,5 +1,7 @@
 package com.example.elencoapp;
 
+// Viva le modifiche inutili! Hello world! O meglio hello Luca!
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
