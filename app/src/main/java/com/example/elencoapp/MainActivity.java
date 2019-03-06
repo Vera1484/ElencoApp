@@ -1,7 +1,5 @@
 package com.example.elencoapp;
 
-// Viva le modifiche inutili! Hello world! O meglio hello Luca!
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         elenco = new ArrayList<>();
+        Toast.makeText(MainActivity.this, "Viva le modifiche inutili! Hello world! O meglio hello Luca!", Toast.LENGTH_LONG).show();
     }
 
 
